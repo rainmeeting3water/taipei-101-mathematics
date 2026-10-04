@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-尚未公開部署；本機預覽 `http://127.0.0.1:5173/`。公開URL通過部署驗證後再更新此處。
+[開啟 △101 公開體驗](https://taipei-101-mathematics.netlify.app/) · [GitHub repository](https://github.com/rainmeeting3water/taipei-101-mathematics)。本機預覽 `http://127.0.0.1:5173/`。
 
 ## How It Works — Look Down / Look Up
 
@@ -86,4 +86,5 @@ npm run preview
 - 無金鑰、無付費服務；可用性與模型涵蓋範圍受官方公開服務限制。若要全市高品質地面實景，仍需查證更多模型、授權及服務效能。
 
 Build for Taipei × Make Learning Personal
+
 
