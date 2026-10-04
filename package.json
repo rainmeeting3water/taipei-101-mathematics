@@ -6,14 +6,15 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "check": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test tests/geometry.test.ts",
+    "test": "node --experimental-strip-types --test tests/geometry.test.ts tests/scene-geometry.test.ts",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
+    "@arcgis/core": "5.1.26",
     "@turf/bearing": "^7.2.0",
     "@turf/distance": "^7.2.0",
-    "maplibre-gl": "^5.6.0"
+    "maplibre-gl": "6.12.0"
   },
   "devDependencies": {
     "typescript": "^5.8.3",
